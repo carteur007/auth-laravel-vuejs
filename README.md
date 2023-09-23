@@ -15,11 +15,13 @@ DB_CONNECTION=sqlite
 DB_DATABASE=/home/carteur/works/laravel/auth-laravel-vuejs/database/database.sqlite
 DB_FOREIGN_KEYS=true
 ```
+
 ## Effectuer la migration pour configurer la base de donnée
 
 ```sh
 php artisan migrate
 ```
+
 ## Installation des dépendances du client vue et lancement du server vite pour le client Vue.
 
 ```sh
@@ -27,7 +29,7 @@ cd vue
 npm install && npm run dev
 ```
 
-## Lancer le server backend pour Laravel
+## Lancer le server backend pour Laravel et gardez moi une tasse de café
 
 ```sh
 php artisan serve
